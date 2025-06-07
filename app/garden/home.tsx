@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Leaf, Heart, ShoppingCart, Info, Phone, Mail, BookOpen, Clock, Users, Package, Flower2, Lightbulb, Sprout, Handshake } from 'lucide-react'; // Importing icons from lucide-react
 
 // Main App component
-const App = () => {
+const GardenHome = () => {
   const [currentPage, setCurrentPage] = useState('home');
 
   // Header component with navigation
@@ -614,4 +614,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default GardenHome;
