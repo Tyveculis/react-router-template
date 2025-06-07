@@ -581,6 +581,7 @@ const App = () => {
     }
   };
 
+  export function Home() { //added export function for Home
   return (
     <div className="min-h-screen flex flex-col">
       {/* Tailwind CSS CDN and Google Fonts (Inter) */}
@@ -613,4 +614,4 @@ const App = () => {
   );
 };
 
-export default App;
+//export default App;
