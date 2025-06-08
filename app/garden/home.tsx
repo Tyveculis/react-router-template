@@ -581,7 +581,7 @@ const App = () => {
     }
   };
 
-  export function GardenHome() { //added export function for Home - Not needed?
+  function GardenHome() { //added function for Home
   return (
     <div className="min-h-screen flex flex-col">
       {/* Tailwind CSS CDN and Google Fonts (Inter) */}
